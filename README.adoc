@@ -1,6 +1,6 @@
-Demo project with python unit test
+= Demo project with python unit test
 
-Start:
+== Start
 
 [source,shell]
 ----
@@ -16,4 +16,31 @@ $ python walker.test.py
 Ran 5 tests in 0.000s
 
 OK
+----
+
+== Tests coverage
+
+Execute:
+
+[source, shell]
+----
+$ python -m coverage run walker.test.py
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+----
+
+Check results:
+
+[source, shell]
+----
+$ python -m coverage report -m
+Name             Stmts   Miss  Cover   Missing
+----------------------------------------------
+walker.py           26      0   100%
+walker.test.py      24      0   100%
+----------------------------------------------
+TOTAL               50      0   100%
 ----
