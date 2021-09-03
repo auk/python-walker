@@ -2,7 +2,18 @@ Demo project with python unit test
 
 Start:
 
-[source]
+[source,shell]
 ----
 python walker.test.py
+----
+
+Output:
+[source,shell]
+----
+$ python walker.test.py
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
 ----
