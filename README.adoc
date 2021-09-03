@@ -1,0 +1,8 @@
+Demo project with python unit test
+
+Start:
+
+[source]
+----
+python walker.test.py
+----
